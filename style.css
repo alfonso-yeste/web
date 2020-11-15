@@ -1,0 +1,229 @@
+body {
+    font-family: 'Nunito','Helvetica';
+}
+.container-header {
+    background-color: #A200FF;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-item {
+    margin-right: 1em;
+}
+
+.nav-item a:hover {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+#navbarNavDropdown {
+    justify-content: center;
+}
+
+.header {
+    margin-top: 14em;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 8em;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.posts {
+    padding-top: 8em;
+    background-color: #A200FF;
+    padding-bottom: 8em;
+}
+
+.posts-title {
+    text-align: center;    
+    color: #ffffff;
+}
+
+.header-posts {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.post {
+    width: 90%;
+    box-shadow: 0 0.2em 0.3em 0.2em #adb5bd;
+    top: -1em;
+    position: relative;
+    background: #ffffff;
+    min-height: 300px;
+    text-align: center;
+    padding: 4em 1em 1em 1em;
+    color: #5A5959;
+    margin-bottom: 6em;
+}
+
+.post h2 {
+    color: #000000;
+}
+
+.post a {
+    color: #8ac8e2;
+}
+
+.post a:hover {
+
+}
+
+.post a:visited {
+
+}
+
+.footer {
+    background-color: #f4f4f4;
+    padding-top: 6em;
+    margin-top: 3em;
+    padding-bottom: 6em;
+}
+
+.footer-content {
+    text-align: center;    
+}
+
+
+/* post */
+
+.post-header {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.post-header .header-title {
+    font-size: 4em;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.post-post {
+    
+    box-shadow: 0 0.2em 0.3em 0.2em #adb5bd;
+    top: -1em;
+    position: relative;
+    background: #ffffff;
+    min-height: 300px;
+    text-align: center;
+    padding: 4em 1em 1em 1em;
+    color: #333333;
+    margin-bottom: 6em;   
+}
+
+.post-details {
+    margin-bottom: 4em;
+    color: #adb5bd; 
+}
+
+.post-details .tag {
+    color:  #A200FF;
+}
+
+.post-post .image {
+    margin: 1em;
+}
+
+.comment {
+    text-align: left;
+}
+
+
+/* formulario de contacto*/
+
+
+.form {
+    text-align: left;
+}
+
+
+form {padding: 20px;}
+
+label {margin: 15px 0px; clear: both; display: block;}
+
+input {padding: 4px; border: solid 0.5px #adb5bd;}
+
+::placeholder, option, value {color: #adb5bd; font-weight: ;}
+
+
+
+
+.post-ficha {
+    text-align: left;
+    margin: 8em 4em 0 4em;
+}
+
+.leer {
+    margin-top: 2em;
+}
+
+.leer a:hover {
+    /*border: solid 1px #A200FF;*/
+    color: #ffffff;
+    box-shadow: 3px 3px #adb5bd ;
+}
+
+.leer-button {
+    display: block;
+    text-align: center;
+}
+
+.post-detail {
+    margin: 1em 0;
+    font-size: 0.7em;
+    color: #adb5bd;
+    padding-left: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+}
+
+.navbar-brand img 
+{
+    width: 3em;
+}
+
+.search-input {
+    display: none;
+}
+
+/******* GLOBALS *******/
+
+input[type="submit"], .leer-button {
+    margin-top: 0.5em;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    background-color: #A200FF; 
+    border: solid 1px #ededed;
+    min-width: 10em;
+    font-weight: bold;
+    width: fit-content;
+}
+
+input[type="submit"]:hover {
+    background-color: #82C8EA;
+}
+
+.push-down {
+    margin-top: 8em;
+}
+
+.push-up {
+    margin-bottom: 4em;
+}
+
+.round-image {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
