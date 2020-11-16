@@ -1,0 +1,285 @@
+/* Globals */
+
+:root {
+    --electric-purple: #A200FF;
+    --heather: #adb5bd;
+    --zambezi: #5A5959;
+    --white-smoke: #f4f4f4;
+    --nighr-rider: #333333;
+    --anakiwa: #8ac8e2;
+    --sky-blue: #82C8EA;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* Globals End */
+
+body {
+    font-family: Nunito, Helvetica, serif;
+}
+
+/* Global Header */
+
+.container-header {
+    background-color: var(--electric-purple);
+}
+
+/* Navigation Bar */
+
+.nav-link {
+    color: var(--white);
+}
+
+.nav-item {
+    margin-right: 1em;
+}
+
+.nav-item a:hover {
+    font-size: 1.2em;
+    color: var(--white);
+}
+
+#navbarNavDropdown {
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-field {
+
+}
+
+/* Navigation Bar End */
+
+/* Header Title */
+
+.header {
+    margin-top: 14em;
+    text-align: center;
+}
+
+.header .title {
+    font-size: 8em;
+    color: var(--white);
+    font-family: Montserrat, serif;
+}
+
+@media (max-width: 777px) {
+    .header .title {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .header .title {
+        font-size: 3em;
+    }
+}
+
+/* Header Title End */
+
+/* Post Title */
+.header-posts {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.posts {
+    padding-top: 8em;
+    background-color: var(--electric-purple);
+    padding-bottom: 8em;
+    margin-top: -1px;
+}
+
+.posts .title {
+    text-align: center;
+    color: var(--white);
+}
+/* Post Title End */
+
+/* Post Card */
+
+.post {
+    box-shadow: 0 0.2em 0.3em 0.2em var(--heather);
+    top: -1em;
+    position: relative;
+    background: var(--white);
+    min-height: 300px;
+    text-align: center;
+    padding: 4em 1em 1em 1em;
+    color: var(--zambezi);
+    width: 90%;
+    margin: 0 auto 6em;
+}
+
+.post h2 {
+    color: var(--black);
+}
+
+.post a {
+    color: var(--anakiwa);
+}
+/* Post Card End */
+
+/* Footer */
+.footer {
+    background-color: var(--white-smoke);
+    padding-top: 6em;
+    margin-top: 3em;
+    padding-bottom: 6em;
+}
+
+.footer-content {
+    text-align: center;
+}
+/* Footer End */
+
+
+
+
+/* post */
+
+.post-header {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.post-header .header-title {
+    font-size: 4em;
+    color: var(--white);
+    font-family: Montserrat, serif;
+}
+
+.post-post {
+
+    box-shadow: 0 0.2em 0.3em 0.2em var(--heather);
+    top: -1em;
+    position: relative;
+    background: var(--white);
+    min-height: 300px;
+    text-align: center;
+    padding: 4em 1em 1em 1em;
+    color: var(--nighr-rider);
+    margin-bottom: 6em;
+}
+
+.post-details {
+    margin-bottom: 4em;
+    color: var(--heather);
+}
+
+.post-details .tag {
+    color: var(--electric-purple);
+}
+
+.post-post .image {
+    margin: 1em;
+}
+
+.comment {
+    text-align: left;
+}
+
+
+/* formulario de contacto*/
+
+
+.form {
+    text-align: left;
+}
+
+
+form {
+    padding: 20px;
+}
+
+label {
+    margin: 15px 0px;
+    clear: both;
+    display: block;
+}
+
+input {
+    padding: 4px;
+    border: solid 0.5px var(--heather);
+}
+
+::placeholder, option, value {
+    color: var(--heather);
+    font-weight: normal;
+}
+
+
+.post-ficha {
+    text-align: left;
+    margin: 8em 4em 0 4em;
+}
+
+.leer {
+    margin-top: 2em;
+}
+
+.leer a:hover {
+    color: var(--white);
+    box-shadow: 3px 3px var(--heather);
+}
+
+.leer-button {
+    display: block;
+    text-align: center;
+}
+
+.post-detail {
+    margin: 1em 0;
+    font-size: 0.7em;
+    color: var(--heather);
+    padding-left: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+}
+
+.search-input {
+    display: none;
+}
+
+input[type="submit"], .leer-button {
+    margin-top: 0.5em;
+    color: var(--white);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--electric-purple);
+    border: solid 1px #ededed;
+    min-width: 10em;
+    font-weight: bold;
+    width: fit-content;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--sky-blue);
+}
+
+.push-down {
+    margin-top: 8em;
+}
+
+.push-up {
+    margin-bottom: 4em;
+}
+
+.round-image {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.fa-search {
+    color: var(--white);
+}
